@@ -33,7 +33,8 @@ pkey_path = '/home/op/.ssh/id_rsa'
 
 def dingding_robot(msg):
 
-    url = 'https://oapi.dingtalk.com/robot/send?access_token=d1a90fbd767646e6a36c9f99b917db744567aebe80a1c7933b8c96d41a782842'
+   
+    url = 'https://oapi.dingtalk.com/robot/send?access_token=d1a90fbd767646e6a36c9f99b917db74456ebe80a1c7933b8c96d41a782842'
     data_info = {
         "msgtype": "text",
         "text": {
